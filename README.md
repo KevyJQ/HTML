@@ -15,18 +15,18 @@ $ git clone git@github.com:KevyJQ/HTML.git
 
 ```shell
 $ git branch
-* main
+* master
 $ git branch -va
-* main                e5fca6a Descripcion del sistema
-  remotes/origin/HEAD -> origin/main
-  remotes/origin/main e5fca6a Descripcion del sistema`
+* master                e5fca6a Descripcion del sistema
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master e5fca6a Descripcion del sistema`
 ## Como subir nuevo codigo
 
 Primero agrega los archivos al cache de git.
 
 $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+On branch master
+Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -41,8 +41,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 $ git add README.md
 
 $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+On branch master
+Your branch is up to date with 'origin/master'.
 
 #Guarda cambios en repositorio local
 $ git commit
@@ -51,6 +51,6 @@ $ git commit
 
 ```shell
 # Comando: git push remote_repo remote_branch_name:local_branch_name
-$ git push origin main:main
+$ git push origin master:master
 ```
 
