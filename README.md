@@ -40,13 +40,14 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 # Agrega los archivos nuevos y modicados
+```shell
 $ git add README.md
 
 $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
-
-#Guarda cambios en repositorio local
+```
+# Guarda cambios en repositorio local
 $ git commit
 
 ## Haz push de tus cambios
