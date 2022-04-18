@@ -24,7 +24,6 @@ $ git branch -va
 
 Primero agrega los archivos al cache de git.
 
-```shell
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -48,7 +47,7 @@ Your branch is up to date with 'origin/main'.
 #Guarda cambios en repositorio local
 $ git commit
 ```
-##Haz push de tus cambios
+## Haz push de tus cambios
 
 ```shell
 # Comando: git push remote_repo remote_branch_name:local_branch_name
