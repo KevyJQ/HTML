@@ -20,8 +20,9 @@ $ git branch -va
 * master                e5fca6a Descripcion del sistema
   remotes/origin/HEAD -> origin/master
   remotes/origin/master e5fca6a Descripcion del sistema`
-## Como subir nuevo codigo
+```
 
+## Como subir nuevo codigo
 Primero agrega los archivos al cache de git.
 
 ```shell
@@ -34,9 +35,9 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 
     modified:   README.md
-```
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 # Agrega los archivos nuevos y modicados
 $ git add README.md
@@ -47,7 +48,7 @@ Your branch is up to date with 'origin/master'.
 
 #Guarda cambios en repositorio local
 $ git commit
-```
+
 ## Haz push de tus cambios
 
 ```shell
