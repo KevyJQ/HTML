@@ -38,6 +38,9 @@ $ cd HTML
     $ git rm -r "Name"
 
   Para subir tus modificaciones nuevamente a git 
-    $ git push "branch"
+    $ git push origin "branch"
+
+  Para checar el nombre de tu branch
+    $ git branch
 
 ```
