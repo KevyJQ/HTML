@@ -1,0 +1,38 @@
+/* ignore */
+body {
+  margin: 10;
+}
+
+#grid {
+  height: 100vh;
+}
+
+#left {
+  background: crimson;
+}
+
+#right {
+  background: navajowhite;
+  border: 3rem solid rgb(0 0 0 / 10%);
+}
+
+/* the magic */
+#grid {
+  transition: 100ms;
+  display: grid;
+  grid-template-columns: 20px auto;
+}
+
+#grid:has(#left:hover) {
+  grid-template-columns: 30% auto;
+}
+/* magic + CSS variable */
+#grid {
+  transition: 300ms;
+  display: grid;
+  grid-template-columns: var(--left, 48px) auto;
+}
+
+#grid:has(#left:hover) {
+  --left: 30%;
+}
